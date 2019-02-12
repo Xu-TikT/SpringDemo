@@ -12,7 +12,7 @@ Spring Boot的主要优点：
     内嵌式容器简化Web项目
     没有冗余代码生成和XML配置的要求
 
-*利⽤Spring	MVC的功能，以⾮常简洁的代码完成了对User对象的RESTful API的创建以及单元测试的编写。其中同时介绍了Spring MVC中最为常⽤的⼏个核⼼注解：@Controller,@RestController,RequestMapping以及⼀些参数绑定的注解：@PathVariable,@ModelAttribute,@RequestParam等。
+* 2019/2/12  利⽤Spring MVC的功能，以⾮常简洁的代码完成了对User对象的RESTful API的创建以及单元测试的编写。其中同时介绍了Spring MVC中最为常⽤的⼏个核⼼注解：@Controller,@RestController,RequestMapping以及⼀些参数绑定的注解：@PathVariable,@ModelAttribute,@RequestParam等。
 
 
 * 2019/2/1  主要目标完成Spring Boot基础项目的构建，并且实现一个简单的Http请求处理和单元测试，通过这个例子对Spring Boot有一个初步的了解，并体验其结构简单、开发快速的特性。
