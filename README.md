@@ -12,6 +12,11 @@ Spring Boot的主要优点：
     内嵌式容器简化Web项目
     没有冗余代码生成和XML配置的要求
 
+* 2019/2/13  
+    - 渲染web页面，使用了Thymeleaf模板引擎，渲染页面需要使用@Controller而不是@RESTController，否则无法渲染页面只能返回return中的值。
+    - 自定义统一异常处理，分网页形式和json格式返回错误信息
+    - 使用Swagger2构建RESTful API文档
+
 * 2019/2/12  利⽤Spring MVC的功能，以⾮常简洁的代码完成了对User对象的RESTful API的创建以及单元测试的编写。其中同时介绍了Spring MVC中最为常⽤的⼏个核⼼注解：@Controller,@RestController,RequestMapping以及⼀些参数绑定的注解：@PathVariable,@ModelAttribute,@RequestParam等。
 
 

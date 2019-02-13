@@ -1,5 +1,6 @@
 package com.example.demo.web;
 
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -7,7 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     @RequestMapping("/hello")
-    public String index(){
+    public String index() throws Exception{
         return "Hello World";
+//        throw new Exception("发生错误");
     }
+
 }
