@@ -12,6 +12,9 @@ Spring Boot的主要优点：
     内嵌式容器简化Web项目
     没有冗余代码生成和XML配置的要求
 
+
+* 2019/2/15 使用Spring Security进行安全控制，本例中对除了访问 / 和 /home的路径都要去进行登录，登录成功后跳转页面。
+
 * 2019/2/13  
     - 渲染web页面，使用了Thymeleaf模板引擎，渲染页面需要使用@Controller而不是@RESTController，否则无法渲染页面只能返回return中的值。
     - 自定义统一异常处理，分网页形式和json格式返回错误信息
