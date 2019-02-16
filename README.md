@@ -16,6 +16,7 @@ Spring Boot的主要优点：
 * 2019/2/16 
     - 在Spring Security的例子中，对登录后增加了注销按钮
     - Spring Boot日志管理功能
+    - 使用AOP统一处理Web请求日志
     
     
 * 2019/2/15 使用Spring Security进行安全控制，本例中对除了访问 / 和 /home的路径都要去进行登录，登录成功后跳转页面。

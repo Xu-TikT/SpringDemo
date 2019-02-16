@@ -2,6 +2,9 @@ package com.example.demo;
 
 import com.example.demo.domain.BlogProperties;
 import com.example.demo.web.HelloController;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.core.layout.LoggerFields;
+import org.apache.logging.log4j.spi.LoggerContextFactory;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -69,9 +72,12 @@ public class DemoApplicationTests {
     }
 
 
-
-
-
+//
+//    public void testLog() throws Exception {
+//        logger.info("输出info");
+//        logger.debug("输出debug");
+//        logger.error("输出error");
+//    }
 
 
 }
