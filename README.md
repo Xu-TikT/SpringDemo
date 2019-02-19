@@ -12,6 +12,7 @@ Spring Boot的主要优点：
     内嵌式容器简化Web项目
     没有冗余代码生成和XML配置的要求
 
+* 2019/2/18 使用JdbcTemplate访问数据库
 
 * 2019/2/16 
     - 在Spring Security的例子中，对登录后增加了注销按钮
